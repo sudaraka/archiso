@@ -4,7 +4,7 @@ SCRIPT_ROOT="$(realpath $(dirname $0))";
 BUILD_ROOT='/tmp'
 ARCH=$(uname -m)
 INSTALL_PAKAGES='base syslinux git vim'
-IGNORE_PACKAGES='jfsutils,reiserfsprogs,xfsprogs,vi,nano,lvm2,netctl'
+IGNORE_PACKAGES='pcmciautils,linux-api-headers,jfsutils,reiserfsprogs,xfsprogs,vi,nano,lvm2,netctl'
 
 LABEL=$1
 shift
